@@ -1,0 +1,9 @@
+
+v = int(input ("Скорость: "))
+t = int(input ("Время: "))
+i = 109
+
+s = (t*v) - ((t*v)//i)*i
+print(s)
+
+
